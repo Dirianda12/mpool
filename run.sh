@@ -2,5 +2,5 @@
 MIN=$1
 while true; do
     python3 app.py "$MIN" --cache="cache/*"
-    sleep $((RANDOM % 7 + 12))
+    sleep $((RANDOM % 5 + 10))
 done
